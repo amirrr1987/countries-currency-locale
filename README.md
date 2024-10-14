@@ -61,8 +61,6 @@ Here's how to use the `localesList` in your TypeScript project:
 
 import { localesList } from  'your-package-name';
 
-  
-
 const countryInfo = localesList['iran'];
 
 console.log(`Locale: ${countryInfo.locale}, Currency: ${countryInfo.currency}`);
@@ -82,21 +80,16 @@ The project defines the following TypeScript types for better type safety:
 ```typescript
 
 export  interface  CountryInfo {
-
-locale:  string;
-
-currency:  string;
-
+    locale:  string;
+    currency:  string;
 }
 
   
 
 export  declare  const localesList: {
+    [key:  string]:  CountryInfo;
 
-[key:  string]:  CountryInfo;
-
-};
-
+    };
 ```
 
   
