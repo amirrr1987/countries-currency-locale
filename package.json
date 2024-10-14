@@ -1,0 +1,41 @@
+{
+  "name": "countries-currency-locale",
+  "version": "1.0.0",
+  "description": "A TypeScript library that provides country-specific currency and locale information for various countries.",
+  "main": "index.js",
+  "types": "./index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirrr1987/countries-currency-locale.git"
+  },
+  "keywords": [
+    "countries",
+    "currency",
+    "locale",
+    "typescript",
+    "internationalization",
+    "i18n"
+  ],
+  "author": {
+    "name": "Amir Maghami",
+    "email": "maghami.a1987@gmail.com",
+    "url": "http://amirmaghami.ir/"
+  },
+  "type": "module",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amirrr1987/countries-currency-locale/issues"
+  },
+  "homepage": "https://github.com/amirrr1987/countries-currency-locale#readme",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}
