@@ -39,9 +39,17 @@ Here's how to use the `localesList` in your TypeScript project:
 ```typescript
 import { localesList } from "countries-currency-locale";
 
-const countryInfo = localesList["iran"];
+const countryInfo = localesList["germany"];
 
 console.log(`Locale: ${countryInfo.locale}, Currency: ${countryInfo.currency}`);
+```
+
+## OR
+
+```typescript
+import { germany } from "countries-currency-locale";
+
+console.log(`Locale: ${germany.locale}, Currency: ${germany.currency}`);
 ```
 
 ## Type Definitions

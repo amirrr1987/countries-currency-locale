@@ -1,6 +1,6 @@
 {
   "name": "countries-currency-locale",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A TypeScript library that provides country-specific currency and locale information for various countries.",
   "main": "index.js",
   "types": "./index.d.ts",
